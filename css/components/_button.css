@@ -1,0 +1,67 @@
+.btn {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 13px 30px;
+    color: var(--main-color);
+    background-color: #FFF;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+}
+
+.btn-full {
+    color: #FFF;
+    background-color: var(--main-color);
+    margin-right: 30px;
+}
+
+.btn-full:hover {
+    color: var(--main-color);
+    background-color: #FFF;
+    transition: all 0.2s ease;
+}
+
+.btn-empty:hover {
+    color: #FFF;
+    background-color: var(--main-color);
+    transition: all 0.2s ease;
+}
+
+.btn-bg-empty {
+    background-color: var(--bg-color);
+    margin: 70px auto;
+}
+
+.btn-bg-empty:hover {
+    background-color: var(--main-color);
+    color: #FFF;
+    border-color: #FFF;
+    transition: all 0.2s ease;
+}
+
+.btn-inscription {
+    margin-top: -20px;
+    margin-bottom: 100px;
+    left: 300px;
+    position: relative;
+}
+
+.btn-inscription-sg {
+    margin-top: -20px;
+    right: -500px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn-inscription, .btn-inscription-sg {
+        margin: 50px auto 100px auto;
+        left: 0;
+        display: block;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .btn-full {
+        margin-top: 20px;
+    }
+}

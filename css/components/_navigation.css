@@ -1,0 +1,37 @@
+.nav--li {
+    list-style: none;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+nav {
+    align-self: center;
+    margin: 20px;
+}
+
+.nav--li:hover a {
+    color: var(--main-color);
+    transition: all 0.4s ease;
+}
+
+.btn-burger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+
+    .btn-burger {
+        display: block;
+        border: none;
+        background-color: #FFF;
+        margin-right: 20px;
+    }
+}

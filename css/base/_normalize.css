@@ -1,0 +1,22 @@
+:root {
+    --cursive-text-color: #E34E67;
+    --main-color: #30CD8A;
+    --bg-color: #1e1d31;
+    --text-color: #423B73;
+    --bg-color-footer: #363450;
+}
+
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
