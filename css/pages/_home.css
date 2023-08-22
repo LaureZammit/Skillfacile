@@ -86,7 +86,15 @@
     }
 
     .div-grid {
-        margin-top: 60px;
+        margin-top: 60px; 
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .div-grid {
+        display: grid;
+        grid-template-columns: 20% auto;
+        gap: 20px;
     }
 }
 
