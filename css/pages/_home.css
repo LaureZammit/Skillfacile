@@ -218,9 +218,13 @@
 
 @media screen and (max-width: 1024px) {
     .fourth-section--training {
-        display: block;
+        display: flex;
         margin: auto;
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
+    }
+
+    .right {
+        flex-direction: column;
     }
 
     .mini-div-training, .mini-div-training-right {
