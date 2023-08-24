@@ -12,7 +12,7 @@
 .btn-full {
     color: #FFF;
     background-color: var(--main-color);
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .btn-full:hover {

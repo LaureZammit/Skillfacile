@@ -245,7 +245,7 @@
     .img-before {
         z-index: 0;
         display: block;
-        margin: auto;
+        margin: auto auto 20px auto;
     }
 
     .fourth-section--title-training {
