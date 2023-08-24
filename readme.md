@@ -51,7 +51,7 @@ Voir les [open issues](https://github.com/LaureZammit/SkillFacile/issues).
   
 Laure Zammit - laurezammit@gmail.com
 
-Project Link: [https://github.com/LaureZammit/MagnetStudio.git](https://github.com/LaureZammit/MagnetStudio.git)
+Project Link: [https://github.com/LaureZammit/SkillFacile.git](https://github.com/LaureZammit/SkillFacile.git)
 
 ### Remerciements
 * [Vincent ERRANTE](https://www.errantevincent.com/) - Formateur
