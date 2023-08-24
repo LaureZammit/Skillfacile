@@ -1,0 +1,342 @@
+.form--table {
+    margin: auto auto auto 50px;
+}
+
+.include--img {
+    align-self: center;
+    width: 100%;
+}
+
+#contact--accomp-perso {
+    margin: 70px auto;
+    max-width: 1440px;
+}
+
+#include--accomp-perso {
+    margin: 70px auto;
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.include--grid-item2 {
+    background-color: var(--bg-color-footer);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.include--grid-img {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.include--grid-title {
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.include--text-white {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.check-list:before {
+    content: url(/img/check\ liste.png);
+    margin-right: 12px;
+}
+
+#include--accomp-perso ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width:1024px) {
+    #include--accomp-perso {
+        display: block;
+    }
+    .include--img {
+        margin: 20px auto;
+    }
+    .include--grid-item2 {
+        margin: 20px;
+        padding: 20px;
+    }
+    .form--table {
+        margin-top: 50px;
+    }
+    .form--table h2, .form--table h3, .form--table p {
+        text-align: center;
+    }
+}
+
+/* SECTION OBJECTIF */
+
+#objectif {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+    
+
+.objectif--image {
+    width: 100%;
+}
+
+.objectif--article {
+    max-width: 700px;
+    align-self: center;
+}
+
+.objectif--article button {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    #objectif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        max-height: 800px;
+        margin-bottom: 250px;
+    }
+    .objectif--article {
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+
+        width:600px; 
+        height:400px; 
+        z-index:2;
+    }
+    .objectif--image {
+        margin-bottom: 50px;
+        position:absolute;
+        z-index:1
+    }
+}
+
+@media screen and (max-width:767px) {
+    #objectif {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        position: initial;
+        max-height:fit-content;
+        margin: auto;
+    }
+    .objectif--article {
+        background-color: transparent;
+        z-index: initial;
+        width:fit-content; 
+        height:auto; 
+    }
+    .objectif--image {
+        margin: auto;
+        position: initial;
+        z-index:initial;
+    }
+}
+
+/* SECTION EXPERTS */
+
+.experts-title--div {
+    max-width: 500px;
+    margin: auto;
+    text-align: -webkit-center;
+}
+
+#experts {
+    margin: 70px auto;
+    padding: 20px;
+    max-width: 1440px;
+}
+
+.experts-grid-coloured {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.experts--coloured {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.experts-art--perso {
+    background-color: #e34e67;
+}
+
+.experts-art--target {
+    background-color: #423b73;
+}
+
+.experts-art--requis {
+    background-color: #1e1d31;
+}
+
+.experts--text-white {
+    color: #FFF;
+}
+
+.experts--coloured h3 {
+    font-size: 26px;
+}
+
+@media screen and (max-width:1024px) {
+    .experts-grid-coloured {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .experts-art--requis {
+        grid-column: 1 / 3;
+    }
+    #experts {
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #experts {
+        margin-bottom: 30px;
+    }
+    .experts-grid-coloured {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .experts-art--requis {
+        grid-column: 1;
+    }
+}
+
+/* SECTION FONCTIONNEMENT */
+
+.fonctionnement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--bg-color);
+}
+
+.fonctionnement-art {
+    padding: 50px 20px 50px 20px;
+    max-width: 500px;
+    justify-self: center;
+}
+
+.title-color {
+    color: var(--main-color);
+    padding-top: 50px;
+}
+
+.fonctionnement--bg-img {
+    background-image: url(/img/Accompagnementsmallgroupe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.fonctionnement-art p {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .fonctionnement-grid {
+        margin-top: 250px;
+        display: block;
+    }
+    .fonctionnement-art {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .fonctionnement--bg-img {
+        background-image: none;
+    }
+}
+
+/* SECTION PERSONNALISE */
+
+#personnalise {
+    margin: 70px auto;
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.personnalise--img {
+    width: 100%;
+}
+
+.personnalise--art {
+    align-self: center;
+    margin-right: 20px;
+    margin-left: 200px;
+    max-width: 70%;
+}
+
+.personnalise--art p {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1024px) {
+    #personnalise {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 800px;
+    }
+
+    .personnalise--art {
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+        position:absolute;
+        width:600px; 
+        z-index:2;
+    }
+    .personnalise--img {
+        margin-bottom: 50px;
+        position:absolute;
+        z-index:1
+    }
+}
+
+@media screen and (max-width:767px) {
+    #personnalise {
+        /* margin-bottom: 10px; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        /* justify-content: center; */
+        position: initial;
+        height: auto;
+    }
+
+    .personnalise--art {
+        /* margin: auto; */
+        /* padding: 20px; */
+        background-color: transparent;
+        /* border-radius: 25px; */
+        position:initial;
+        width:auto; 
+        z-index:initial;
+    }
+    .personnalise--img {
+        margin-bottom: 10px;
+        position:initial;
+        z-index:initial;
+    }
+}

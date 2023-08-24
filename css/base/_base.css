@@ -13,6 +13,12 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 767px) {
+    .main-title {
+        font-size: 28px;
+    }
+}
+
 .secondary-title {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;

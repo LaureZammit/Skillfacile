@@ -1,0 +1,25 @@
+table, td {
+    border: 1px solid var(--bg-color-footer);
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+thead, tbody {
+    color: #000;
+}
+
+td, th {
+    height: 30px;
+}
+
+@media screen and (max-width:1024px) {
+    td, th {
+        text-align: center;
+    }
+    table {
+        margin-top: 30px;
+    }
+}
