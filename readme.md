@@ -7,7 +7,7 @@
 <div align="center">
   <a name="readme-top"></a>
   <a href="https://laurezammit.github.io/Skillfacile/">
-    <img src="img/about-image.jpg" alt="Logo" width="180">
+    <img src="img/logo-noir.png" alt="Logo" width="180">
   </a>
 
   <h1 align="center">Skillfacile</h1>
