@@ -61,14 +61,14 @@ Project Link: [https://github.com/LaureZammit/MagnetStudio.git](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/LaureZammit/MagnetStudio.svg?style=for-the-badge
-[contributors-url]: https://github.com/LaureZammit/MagnetStudio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LaureZammit/MagnetStudio.svg?style=for-the-badge
-[forks-url]: https://github.com/LaureZammit/MagnetStudio/forks
-[stars-shield]: https://img.shields.io/github/stars/LaureZammit/MagnetStudio.svg?style=for-the-badge
-[stars-url]: https://github.com/LaureZammit/MagnetStudio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LaureZammit/MagnetStudio.svg?style=for-the-badge
-[issues-url]: https://github.com/LaureZammit/MagnetStudio/issues
+[contributors-shield]: https://img.shields.io/github/contributors/LaureZammit/Skillfacile.svg?style=for-the-badge
+[contributors-url]: https://github.com/LaureZammit/Skillfacile/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LaureZammit/Skillfacile.svg?style=for-the-badge
+[forks-url]: https://github.com/LaureZammit/Skillfacile/forks
+[stars-shield]: https://img.shields.io/github/stars/LaureZammit/Skillfacile.svg?style=for-the-badge
+[stars-url]: https://github.com/LaureZammit/Skillfacile/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LaureZammit/Skillfacile.svg?style=for-the-badge
+[issues-url]: https://github.com/LaureZammit/Skillfacile/issues
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/laure-zammit-84a3b3150/
